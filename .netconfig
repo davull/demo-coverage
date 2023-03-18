@@ -1,0 +1,8 @@
+# .netconfig is awesome: https://dotnetconfig.org
+
+# https://github.com/danielpalme/ReportGenerator
+[ReportGenerator]
+	report = ./.testresults/*/coverage.cobertura.xml
+	targetdir = .coverage
+	reporttypes = "Clover;Cobertura;MarkdownSummary;Html;JsonSummary;lcov;TextSummary"
+	title = Code coverage report
